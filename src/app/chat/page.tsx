@@ -155,7 +155,7 @@ export default function ChatPage() {
                             : "bg-[#F7F3F0] text-[#5A5A5A]"
                         }`}
                       >
-                        {message.content}
+                        <pre className="whitespace-pre-wrap font-sans">{message.content}</pre>
                       </div>
                     </div>
                   </div>
